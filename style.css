@@ -1,0 +1,112 @@
+#navigation{
+    background-color: rgb(155, 134, 121); 
+     padding-top: 50px; 
+}
+#navbar{
+    gap: 10%;
+    display: flex;
+    text-decoration: none;
+    font-size: 250%;
+    -webkit-text-fill-color: black;
+    margin-left: 50px;
+}
+#intro{
+    text-align: center;
+    font-size: 250%;
+    font-weight: bolder;
+
+}
+#direct{
+    text-align: center;
+    font-size: 200%;
+
+}
+.line{
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.line2{
+    text-decoration: none;
+}
+button{
+        padding: 20px;
+        width: 230px;
+        border-radius: 20px;
+        margin-left: 780px;
+        font-weight: bold;
+        font-size: 150%;
+}
+#motive{
+    text-align: center;
+    font-size: 150%;
+}
+#pic{
+    margin-left: 800px;
+    width: 250px;
+    height: 220px;
+}
+#body{
+    background-color:  rgb(18, 167, 157);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#logos{
+    width:150px;
+    height:150px;
+}
+@media all and (min-width: 280px) and (max-width: 1024px) {
+    #navigation{
+        background-color: rgb(155, 134, 121); 
+         padding-top: 15px; 
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        font-size: 100%;
+        -webkit-text-fill-color: black;
+    }
+    #intro{
+        font-size: 150%;
+        font-weight: bolder;
+    
+    }
+    #direct{
+        font-size: 100%;
+    
+    }
+    .line{
+        text-decoration: none;
+        padding-bottom: 30px;
+    }
+    #logos{
+        width:70px;
+        height:90px;
+        margin-left: 1px;
+    }
+    .line2{
+        text-decoration: none;
+    }
+    button{
+            padding: 10px;
+            width: 100px;
+            border-radius: 20px;
+            margin-left: 150px;
+            font-weight: bold;
+            font-size: 50%;
+    }
+    #motive{
+        font-size: 150%;
+    }
+    #pic{
+        margin-left: 100px;
+        width: 250px;
+        height: 200px;
+    }
+    #body{
+        background-color:  rgb(18, 167, 157);
+        width: 100%;
+    }
+
+    
+}

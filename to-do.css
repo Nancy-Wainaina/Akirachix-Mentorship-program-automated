@@ -1,0 +1,154 @@
+#navigation{
+    background-color: rgb(155, 134, 121); 
+    padding-left: 80px;
+    padding-top: 50px;
+}
+#navbar{
+    gap: 10%;
+    display: flex;
+    text-decoration: none;
+    font-size: 250%;
+    -webkit-text-fill-color: black;
+    margin-left: 50px;
+}
+#body{
+    background-color:  rgb(18, 167, 157);
+    padding-top: 20px;
+}
+#title{
+    text-align: center;
+    margin-top: 90px;
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#trevors{
+    font-size: 40px;
+    text-align: center;
+}
+.line{
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+#new-task{
+    padding: 30px;
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 30px;
+    font-size: large;
+}
+#add-task{
+    padding: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+
+}
+#todo-list{
+    font-size: xx-large;
+    margin-left: 500px;
+
+}
+#todo-list li button{
+    padding: 15px;
+    border-radius: 30px;
+    width: 150px;
+    margin-left: 70px;
+    background-color: rgb(85, 26, 139);
+    font-size: 18px;
+    font-weight: bolder;
+}
+#docs{
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+
+}
+#docs:hover{
+    background-color: goldenrod;
+}
+input[type="checkbox"] {
+    width: 3em;
+    height: 3rem;
+    accent-color: green;
+  }
+  #logos{
+    width:150px;
+    height:150px;
+}
+  
+@media all and (min-width: 280px) and (max-width: 1024px) {
+    #navigation{
+        background-color: rgb(155, 134, 121); 
+        padding-top: 25px;
+    }
+    #navbar{
+        text-decoration: none;
+        font-size: 100%;
+        -webkit-text-fill-color: black;
+        margin-left: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    #title{
+        text-align: center;
+        margin-top: 90px;
+        font-weight: bolder;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .line{
+        text-decoration: none;
+        padding-bottom: 30px;
+    }
+    #body{
+        background-color:  rgb(18, 167, 157);
+        padding-top: 20px;
+    }
+    #new-task{
+        padding: 15px;
+        width: 250px;
+        margin-left: 100px;
+        border-radius: 30px;
+        font-size: large;
+    }
+    input[type="checkbox"] {
+        width: 1em;
+        height: 1rem;
+        accent-color: green;
+      }
+    #add-task{
+        padding: 10px;
+        width: 150px;
+        border-radius: 30px;
+        background-color: black;
+        color: aliceblue;
+        font-size: larger;
+        margin-left: 150px;
+        margin-top: 20px;
+    
+    }
+    #todo-list{
+        font-size: large;
+        margin-left: 150px;
+    
+    }
+    #todo-list li button{
+        padding: 15px;
+        border-radius: 30px;
+        width: 100px;
+        margin-left: 70px;
+        background-color: rgb(85, 26, 139);
+        font-size: 18px;
+    }
+    #trevors{
+        font-size: 20px;
+        text-align: center;
+    }
+    #logos{
+        width:70px;
+        height:90px;
+    }
+
+}
