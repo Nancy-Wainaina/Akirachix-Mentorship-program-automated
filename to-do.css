@@ -23,7 +23,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #trevors{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
 .line{
@@ -69,13 +69,18 @@
     background-color: goldenrod;
 }
 input[type="checkbox"] {
-    width: 3em;
-    height: 3rem;
+    width: 2em;
+    height: 2rem;
     accent-color: green;
   }
   #logos{
     width:150px;
     height:150px;
+}
+#others{
+    font-size: 20px;
+    margin-left: 525px;
+
 }
   
 @media all and (min-width: 280px) and (max-width: 1024px) {
@@ -145,6 +150,10 @@ input[type="checkbox"] {
     #trevors{
         font-size: 20px;
         text-align: center;
+    }
+    #others{
+        font-size: 20px;
+
     }
     #logos{
         width:70px;
